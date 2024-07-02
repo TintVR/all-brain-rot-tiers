@@ -1,0 +1,36 @@
+body {background-color: black;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: monospace;
+    font-size: 90px;
+}
+a {
+    font-size: 45px;
+    color: rgb(127, 255, 115);
+    font-family:sans-serif;
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: 50;
+    text-align: center;
+}
+
+ul {
+    color:white;
+}
+li {
+   font-size: 25;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: monospace;
+    font-size: 65px;
+}
+h2::selection {
+    background-color: rgb(223, 0, 0);
+    color: black;
+}
