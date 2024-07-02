@@ -9,11 +9,12 @@ h1 {
 a {
     font-size: 45px;
     color: rgb(127, 255, 115);
-    text-align: center;
+    font-family:sans-serif;
 }
 p {
     color: rgb(255, 255, 255);
     font-size: 50;
+    text-align: center;
 }
 
 ul {
@@ -22,10 +23,7 @@ ul {
 li {
    font-size: 25;
 }
-::selection {
-    background-color: rgb(127, 255, 115);
-    color: black;
-}
+
 h2 {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -34,5 +32,15 @@ h2 {
 }
 h2::selection {
     background-color: rgb(223, 0, 0);
+    color: black;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: monospace;
+    font-size: 49px;
+}
+h3::selection {
+    background-color: rgb(210, 31, 255);
     color: black;
 }

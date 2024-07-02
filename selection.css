@@ -1,0 +1,24 @@
+::selection {
+    background-color: rgb(127, 255, 115);
+    color: #000000;
+}
+
+::-moz-selection {
+    background-color: rgb(127, 255, 115);
+    color: #000000;
+}
+
+::-o-selection {
+    background-color: rgb(127, 255, 115);
+    color: #000000;
+}
+
+::-ms-selection {
+    background-color: rgb(127, 255, 115);
+    color: #000000;
+}
+
+::-webkit-selection {
+    background-color: rgb(127, 255, 115);
+    color: #000000;
+}
